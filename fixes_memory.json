@@ -1,0 +1,14 @@
+{
+    "Factorial function is recursive and lacks base case": {
+        "fix": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nnumbers = [1,2,3]\nprint(numbers[0] if len(numbers) > 0 and 0 <= 5 < len(numbers) else \"Index out of range\")\n\nname = \"Pavan\"\nage = 20\nprint(str(name) + str(age))\n\n# Example usage:\nprint(factorial(5))",
+        "timestamp": "2026-06-28T16:40:18.492598"
+    },
+    "Index out of range accessing a list with index 5": {
+        "fix": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nnumbers = [1,2,3]\nprint(numbers[2])\n\nname = \"Pavan\"\nage = 20\nprint(name + \" is \" + str(age))",
+        "timestamp": "2026-06-28T16:40:36.204358"
+    },
+    "Cannot concatenate string with integer": {
+        "fix": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nnumbers = [1,2,3]\ntry:\n    print(numbers[5])\nexcept IndexError:\n    print(\"Index out of range\")\n\nname = \"Pavan\"\nage = 20\nprint(name + str(age))\n\nprint(factorial(5))",
+        "timestamp": "2026-06-28T16:42:24.491998"
+    }
+}
