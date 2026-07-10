@@ -131,7 +131,7 @@ groq
 
 ## 🙋 Author
 
-**Pavan** — Built as part of internship project using Groq + LLaMA + Genetic Algorithms
+**NIKHIL** — Built as part of internship project using Groq + LLaMA + Genetic Algorithms
 
 ---
 
