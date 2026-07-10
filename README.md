@@ -57,7 +57,7 @@ code-review-agent/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Nikhileswar-Gonugunta/code-review-agent.git
+git clone https://github.com/Nikhileswar-Gouda/code-review-agent.git
 cd code-review-agent
 ```
 
